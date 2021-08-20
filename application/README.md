@@ -24,4 +24,4 @@
 
 ### 集成测试架构层次图
 
-![logo](./img/jiagou.png)
+![logo](../img/jiagou.png)
