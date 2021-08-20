@@ -1,4 +1,4 @@
-<img src="../img/home.jpeg" width="1020" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1)" />
+<img src="./img/home.jpeg" width="1020" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1)" />
 
 **这是一个集成 ui 还原测试、ete 页面测试、api 接口测试、压力测试的集成测试工具。**
 
