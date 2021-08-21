@@ -4,6 +4,6 @@
 
 ## 流程图
 
-![logo](../../img/ui.jpeg)
+![logo](../img/ui.jpeg)
 
 ## 快速开始

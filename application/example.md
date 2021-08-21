@@ -2,20 +2,20 @@
 
 ## 新建项目
 
-![新建项目](../../img/group/group01.jpeg)
-![新建项目](../../img/group/group02.jpeg)
+![新建项目](../img/group/group01.jpeg)
+![新建项目](../img/group/group02.jpeg)
 
 ## 设置钉钉推送
 
-![设置钉钉推送](../../img/dingding/ding01.jpeg)
-![设置钉钉推送](../../img/dingding/ding02.jpeg)
-![设置钉钉推送](../../img/dingding/ding03.jpeg)
-![设置钉钉推送](../../img/dingding/ding04.jpeg)
-![设置钉钉推送](../../img/dingding/ding05.jpeg)
-![设置钉钉推送](../../img/dingding/ding06.jpeg)
-![设置钉钉推送](../../img/dingding/ding07.jpeg)
-![设置钉钉推送](../../img/dingding/ding08.jpeg)
-![设置钉钉推送](../../img/dingding/ding09.jpeg)
+![设置钉钉推送](../img/dingding/ding01.jpeg)
+![设置钉钉推送](../img/dingding/ding02.jpeg)
+![设置钉钉推送](../img/dingding/ding03.jpeg)
+![设置钉钉推送](../img/dingding/ding04.jpeg)
+![设置钉钉推送](../img/dingding/ding05.jpeg)
+![设置钉钉推送](../img/dingding/ding06.jpeg)
+![设置钉钉推送](../img/dingding/ding07.jpeg)
+![设置钉钉推送](../img/dingding/ding08.jpeg)
+![设置钉钉推送](../img/dingding/ding09.jpeg)
 
 ## 定时任务配置
 
