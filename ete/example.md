@@ -36,7 +36,15 @@
 
 ### 录制脚本文件
 
-### 新建分组
+![录制脚本文件](../../img/ete/ete01.jpeg)
+![录制脚本文件](../../img/ete/ete02.jpeg)
+![录制脚本文件](../../img/ete/ete03.jpeg)
+![录制脚本文件](../../img/ete/ete04.jpeg)
+![录制脚本文件](../../img/ete/ete05.jpeg)
+![录制脚本文件](../../img/ete/ete06.jpeg)
+![录制脚本文件](../../img/ete/ete07.jpeg)
+![录制脚本文件](../../img/ete/ete08.jpeg)
+![录制脚本文件](../../img/ete/ete09.jpeg)
 
 ### 分组设置
 

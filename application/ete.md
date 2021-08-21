@@ -47,14 +47,23 @@
 
 ### 录制脚本文件
 
-### 新建分组
+![录制脚本文件](../../img/chrome/chrome01.png)
+![录制脚本文件](../../img/chrome/chrome02.png)
+![录制脚本文件](../../img/chrome/chrome03.png)
+![录制脚本文件](../../img/chrome/chrome04.jpeg)
+![录制脚本文件](../../img/chrome/chrome05.jpeg)
 
-### 分组设置
+### ete 设置启动
+
+![ete 设置启动](../../img/ete/ete01.jpeg)
+![ete 设置启动](../../img/ete/ete02.jpeg)
+![ete 设置启动](../../img/ete/ete03.jpeg)
+![ete 设置启动](../../img/ete/ete04.jpeg)
+![ete 设置启动](../../img/ete/ete05.jpeg)
+![ete 设置启动](../../img/ete/ete06.jpeg)
+![ete 设置启动](../../img/ete/ete07.jpeg)
+![ete 设置启动](../../img/ete/ete08.jpeg)
 
 ### 添加全局配置
 
-### 添加接口
-
-#### 断言
-
-#### 变量设置
+![添加全局配置](../../img/ete/ete09.jpeg)

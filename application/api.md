@@ -25,6 +25,21 @@
 
 ## 暂不支持
 
+![录制脚本文件](../../img/api/api01.jpeg)
+![录制脚本文件](../../img/api/api02.jpeg)
+![录制脚本文件](../../img/api/api03.jpeg)
+![录制脚本文件](../../img/api/api04.jpeg)
+![录制脚本文件](../../img/api/api05.jpeg)
+![录制脚本文件](../../img/api/api06.jpeg)
+![录制脚本文件](../../img/api/api07.jpeg)
+![录制脚本文件](../../img/api/api08.jpeg)
+![录制脚本文件](../../img/api/api09.jpeg)
+![录制脚本文件](../../img/api/api10.jpeg)
+![录制脚本文件](../../img/api/api11.jpeg)
+![录制脚本文件](../../img/api/api12.jpeg)
+![录制脚本文件](../../img/api/api13.jpeg)
+![录制脚本文件](../../img/api/api14.jpeg)
+
 ## 快速开始
 
 ### 新建分组
@@ -35,6 +50,6 @@
 
 ### 添加接口
 
-###变量设置
+### 变量设置
 
 ### 断言
