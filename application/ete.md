@@ -43,6 +43,7 @@
 ### 下载 chrome 插件
 
 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN)
+
 [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
 
 ### 录制脚本文件
