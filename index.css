@@ -2,6 +2,35 @@
     width: 200px;
 }
 img {
+    margin: 4px;
+}
+
+.etest-col-2 {
+    width: 20%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
-    margin: 5px;
+}
+.etest-col-3 {
+    width: 30%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.etest-col-4 {
+    width: 40%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.etest-col-5 {
+    width: 50%;
+}
+.etest-col-6 {
+    width: 60%;
+}
+.etest-col-7 {
+    width: 70%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.etest-col-8 {
+    width: 80%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.etest-col-9 {
+    width: 90%;
 }

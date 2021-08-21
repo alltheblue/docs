@@ -4,16 +4,19 @@
 
 <iframe src="//player.bilibili.com/player.html?aid=759967057&bvid=BV1764y1v7is&cid=392078147&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" framespacing="0"  height="600"  style=”width: 100%;height: 500px; max-width: 100%;align:center;padding:20px 0;” > </iframe>
 
-### 快速开始
-
-[eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN)
-[eTest github 下载](https://github.com/onepiece-smile/docs/releases)
-
 ## 解决痛点
 
 ## 设计流程图
 
+### 浏览器录制脚本流程图
+
+?> ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需要安装 chrome 插件，通过启用插件，收集用户操作信息，生成 ete 测试需要的脚本文件。
+
+[eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
+
 ![logo](../img/chrome.png)
+
+### ETE 执行脚本流程图
 
 ![logo](../img/etetest.png)
 
@@ -44,27 +47,47 @@
 
 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN)
 
-[eTest github 下载](https://github.com/onepiece-smile/docs/releases)
+[eTest 插件 github 下载](https://github.com/onepiece-smile/docs/releases)
 
 ### 录制脚本文件
 
-![录制脚本文件](../img/chrome/chrome01.png)
-![录制脚本文件](../img/chrome/chrome02.png)
-![录制脚本文件](../img/chrome/chrome03.png)
-![录制脚本文件](../img/chrome/chrome04.jpeg)
-![录制脚本文件](../img/chrome/chrome05.jpeg)
+<img src="../img/chrome/chrome01.png"  class='etest-col-8' />
+<img src="../img/chrome/chrome02.png"  class='etest-col-8' />
+<img src="../img/chrome/chrome03.png"  class='etest-col-8' />
+<img src="../img/chrome/chrome04.jpeg"  class='etest-col-2' />
+<img src="../img/chrome/chrome05.jpeg"  class='etest-col-8' />
+
+        事件 单击事件：click
+        事件 双击事件：dbclick
+          事件 鼠标hover：'hover
+          事件 滚动至此：scroll
+
+
+        文本断言
+            '包含 %s', 'include'},
+            '不包含 %s',  'exclude'}
+
+        //number
+               大于 ,  greater
+              等于   equal
+               小于 less
+
+
+        //属性断言 class、id、 data....
+                         包含 `include ,
+                   不包含exclude
 
 ### ete 设置启动
 
-![ete 设置启动](../img/ete/ete01.jpeg)
-![ete 设置启动](../img/ete/ete02.jpeg)
-![ete 设置启动](../img/ete/ete03.jpeg)
-![ete 设置启动](../img/ete/ete04.jpeg)
-![ete 设置启动](../img/ete/ete05.jpeg)
-![ete 设置启动](../img/ete/ete06.jpeg)
-![ete 设置启动](../img/ete/ete07.jpeg)
-![ete 设置启动](../img/ete/ete08.jpeg)
+<img src="../img/ete/ete01.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete02.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete03.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete04.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete05.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete06.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete07.jpeg" class="etest-col-8" />
+<img src="../img/ete/ete08.jpeg" class="etest-col-8" />
 
 ### 添加全局配置
 
-![添加全局配置](../img/ete/ete09.jpeg)
+<img src="../img/ete/ete09.jpeg" class="etest-col-8" />
