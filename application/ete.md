@@ -51,11 +51,11 @@
 
 ### 录制脚本文件
 
-<img src="../img/chrome/chrome01.png"  class='etest-col-8' />
-<img src="../img/chrome/chrome02.png"  class='etest-col-8' />
-<img src="../img/chrome/chrome03.png"  class='etest-col-8' />
-<img src="../img/chrome/chrome04.jpeg"  class='etest-col-2' />
-<img src="../img/chrome/chrome05.jpeg"  class='etest-col-8' />
+<img src="../docs/img/chrome/chrome01.png"  class='etest-col-8' />
+<img src="../docs/img/chrome/chrome02.png"  class='etest-col-8' />
+<img src="../docs/img/chrome/chrome03.png"  class='etest-col-8' />
+<img src="../docs/img/chrome/chrome04.jpeg"  class='etest-col-2' />
+<img src="../docs/img/chrome/chrome05.jpeg"  class='etest-col-8' />
 
         事件 单击事件：click
         事件 双击事件：dbclick
@@ -79,15 +79,15 @@
 
 ### ete 设置启动
 
-<img src="../img/ete/ete01.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete02.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete03.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete04.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete05.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete06.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete07.jpeg" class="etest-col-8" />
-<img src="../img/ete/ete08.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete01.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete02.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete03.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete04.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete05.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete06.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete07.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete08.jpeg" class="etest-col-8" />
 
 ### 添加全局配置
 
-<img src="../img/ete/ete09.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete09.jpeg" class="etest-col-8" />
