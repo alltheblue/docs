@@ -6,7 +6,7 @@
 
 ## 流程图
 
-![logo](../img/apiliucheng.png)
+![logo](../docs/img/apiliucheng.png)
 
 ## 功能列表
 
@@ -25,32 +25,32 @@
 1.  上传下载数据包 :white_check_mark:
 1.  修改 content-type 值 :white_check_mark:
 
-<img src="../img/api/api09.jpeg" class="etest-col-7" />
-<img src="../img/api/api12.jpeg" class="etest-col-7" />
-<img src="../img/api/api13.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api09.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api12.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api13.jpeg" class="etest-col-7" />
 
 ## 快速开始
 
 ### 新建分组&设置
 
-<img src="../img/api/api03.jpeg" class="etest-col-7" />
-<img src="../img/api/api04.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api03.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api04.jpeg" class="etest-col-7" />
 
 ### 添加全局配置
 
-<img src="../img/api/api01.jpeg" class="etest-col-7" />
-<img src="../img/api/api02.jpeg" class="etest-col-7" />
-<img src="../img/api/api10.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api01.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api02.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api10.jpeg" class="etest-col-7" />
 
 ### 添加接口
 
-<img src="../img/api/api07.jpeg" class="etest-col-7" />
-<img src="../img/api/api08.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api07.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api08.jpeg" class="etest-col-7" />
 
 ### 断言
 
-<img src="../img/api/api05.jpeg" class="etest-col-7" />
-<img src="../img/api/api06.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api05.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api06.jpeg" class="etest-col-7" />
 
 <!-- ConfigAsert = [
 { title: '类型检测 number', id: 'number' },
@@ -105,4 +105,4 @@ function myselfFun(value) {
 
 ### 导出&导出文件
 
-<img src="../img/api/api14.jpeg" class="etest-col-7" />
+<img src="../docs/img/api/api14.jpeg" class="etest-col-7" />

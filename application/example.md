@@ -2,25 +2,25 @@
 
 ## 新建项目
 
-<img src="../img/group/group01.jpeg" class="etest-col-8" />
-<img src="../img/group/group02.jpeg" class="etest-col-8" />
+<img src="../docs/img/group/group01.jpeg" class="etest-col-8" />
+<img src="../docs/img/group/group02.jpeg" class="etest-col-8" />
 
 ## 设置钉钉推送
 
-<img src="../img/dingding/ding01.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding02.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding03.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding04.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding05.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding06.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding07.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding08.jpeg" class="etest-col-8" />
-<img src="../img/dingding/ding09.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding01.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding02.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding03.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding04.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding05.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding06.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding07.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding08.jpeg" class="etest-col-8" />
+<img src="../docs/img/dingding/ding09.jpeg" class="etest-col-8" />
 
 ## 定时任务配置
 
-<img src="../img/task/task01.jpeg" class="etest-col-8" />
-<img src="../img/task/task02.jpeg" class="etest-col-8" />
+<img src="../docs/img/task/task01.jpeg" class="etest-col-8" />
+<img src="../docs/img/task/task02.jpeg" class="etest-col-8" />
 
 ## 支持功能
 
