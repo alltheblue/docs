@@ -6,7 +6,7 @@
 
 ## 流程图
 
-![logo](../docs/img/apiliucheng.png)
+![logo](../img/apiliucheng.png)
 
 ## 功能列表
 
