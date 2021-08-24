@@ -6,17 +6,17 @@
 
 ## 解决痛点
 
-## 设计流程图
+## 流程设计图
 
-### 浏览器录制脚本流程图
-
-?> ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需要安装 chrome 插件，通过启用插件，收集用户操作信息，生成 ete 测试需要的脚本文件。
-
-[eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
+#### 浏览器录制脚本流程图
 
 ![logo](../img/chrome.png)
 
-### ETE 执行脚本流程图
+ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需要安装 chrome 插件，通过启用插件，收集用户操作信息，生成 ete 测试需要的脚本文件。
+
+!> Chrome 插件下载方式 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) 或者 [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
+
+#### ETE 执行脚本流程图
 
 ![logo](../img/etetest.png)
 
@@ -45,37 +45,57 @@
 
 ### 下载 chrome 插件
 
-[eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN)
-
-[eTest 插件 github 下载](https://github.com/onepiece-smile/docs/releases)
+!> Chrome 插件下载方式 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) 或者 [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
 
 ### 录制脚本文件
 
 <img src="../docs/img/chrome/chrome01.png"  class='etest-col-8' />
+
+打开右上角的 chrome 插件 点击小图标出现 `start` 状态，表示已启动测试脚本录制
+
 <img src="../docs/img/chrome/chrome02.png"  class='etest-col-8' />
+点击网页操作，eTest插件提示 `添加一条操作事件` ，说明eTest插件正在记录用户在页面的操作。
+
+!> 点击时间， 文本框，下拉框改变 都会触发该动作
+
 <img src="../docs/img/chrome/chrome03.png"  class='etest-col-8' />
+选中文本，鼠标右键，选择期望的断言结果
+
+#### 断言值
+
+根据用户选中的文本自动判断 `string`或者 `number`类型，然后自动生成需要的测试用例菜单列表，
+
+?> 1. 选择文本时，会自动选择当前标签内的全部内容。 2. 如果选中的文本是含有两个相邻标签的内容，则会默认选中第一个标签的全部内容。
+
+##### 事件
+
+1. click:单击事件
+1. dbclick:双击事件
+1. hover:鼠标 hover
+1. scroll:滚动至此
+
+##### 文本断言
+
+1. include:包含当前值
+1. exclude:不包含当前值
+
+##### 数字断言
+
+1. greater：大于当前值
+1. equal：等于 当前值
+1. less：小于当前值
+
+##### 属性值断言(class、id、data、 type....)
+
+1. include:包含当前值
+1. exclude:不包含当前值
+
 <img src="../docs/img/chrome/chrome04.jpeg"  class='etest-col-2' />
 <img src="../docs/img/chrome/chrome05.jpeg"  class='etest-col-8' />
 
-        事件 单击事件：click
-        事件 双击事件：dbclick
-          事件 鼠标hover：'hover
-          事件 滚动至此：scroll
+点击右上 eTest 图标，结束测试脚本录制，并且生成测试脚本文件，下载到本地
 
-
-        文本断言
-            '包含 %s', 'include'},
-            '不包含 %s',  'exclude'}
-
-        //number
-               大于 ,  greater
-              等于   equal
-               小于 less
-
-
-        //属性断言 class、id、 data....
-                         包含 `include ,
-                   不包含exclude
+?> 如果测试脚本用例小于 2 条，则不会
 
 ### ete 设置启动
 
