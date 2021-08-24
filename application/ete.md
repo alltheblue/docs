@@ -22,24 +22,24 @@
 
 ## 支持功能
 
-1. 支持 iframe 多嵌套操作 , 支持动态 iframe 插入问题
-2. 支持关闭 alert 提示
-3. 支持等待 dom 元素显示
-4. 支持页面断言操作，数字类型的大于小于等于操作
-5. 支持生成测试报告
-6. 支持运行时页面错误收集
-7. 支持延时操作处理
-8. 支持无头模式
-9. 支持录屏回放、
-10. 支持等待网络加载完成后操作
-11. 解决 xpath 查找 svg 问题
-12. 支持阻止默认事件后，依然可以获取事件操作
-13. 打包内置浏览器
-14. 支持多页录制
-15. 支持事件被阻止依旧可以收集
-16. 支持错误截图
-17. 支持在线修改 json 数据
-18. 支持用例拖拽排序
+1. 支持 iframe 多嵌套操作 , 支持动态 iframe 插入问题 :heavy_check_mark:
+2. 支持关闭 alert 提示 :heavy_check_mark:
+3. 支持等待 dom 元素显示 :heavy_check_mark:
+4. 支持页面断言操作，数字类型的大于小于等于操作 :heavy_check_mark:
+5. 支持生成测试报告 :heavy_check_mark:
+6. 支持运行时页面错误收集 :heavy_check_mark:
+7. 支持延时操作处理 :heavy_check_mark:
+8. 支持无头模式 :heavy_check_mark:
+9. 支持录屏回放、 :heavy_check_mark:
+10. 支持等待网络加载完成后操作 :heavy_check_mark:
+11. 解决 xpath 查找 svg 问题 :heavy_check_mark:
+12. 支持阻止默认事件后，依然可以获取事件操作 :heavy_check_mark:
+13. 打包内置浏览器 :heavy_check_mark:
+14. 支持多页录制 :heavy_check_mark:
+15. 支持事件被阻止依旧可以收集 :heavy_check_mark:
+16. 支持错误截图 :heavy_check_mark:
+17. 支持在线修改 json 数据 :heavy_check_mark:
+18. 支持用例拖拽排序 :heavy_check_mark:
 
 ## 快速开始
 
