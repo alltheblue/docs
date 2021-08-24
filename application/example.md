@@ -22,9 +22,12 @@
 <img src="../docs/img/dingding/ding06.jpeg" class="etest-col-8" />
 <img src="../docs/img/dingding/ding07.jpeg" class="etest-col-8" />
 <img src="../docs/img/dingding/ding08.jpeg" class="etest-col-8" />
-安全配置勾选 `加签` ,然后复制密钥
+
+安全配置勾选 `加签` ,然后妥善保存密钥， [**新建项目** ](#新建项目)中的 钉钉消息推送需要该值
+
 <img src="../docs/img/dingding/ding09.jpeg" class="etest-col-8" />
 复制url连接，获取url的参数token
+
 ## 定时任务配置
 
 <img src="../docs/img/task/task01.jpeg" class="etest-col-8" />
@@ -47,21 +50,3 @@
 3. redio 操作有点问题 需要点击到 click :white_check_mark:
 4. 快捷键输入 :white_check_mark:
 5. 多 tab 页面交互操作 :white_check_mark:
-
-<!--
-debug eTest 缺点。难点。  计划迭代
-mysql，
-发送请求方式，
-充分利用 浏览器空闲时间ifvisible.js
-过滤错误信息
-indexdb
-页面还有些问题bug
-心跳包检测
-
-难点： 接入录屏  错误上传
-
-计划迭代
-
-eTest
-
--->
