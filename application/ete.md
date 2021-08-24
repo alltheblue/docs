@@ -54,11 +54,13 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 打开右上角的 chrome 插件 点击小图标出现 `start` 状态，表示已启动测试脚本录制
 
 <img src="../docs/img/chrome/chrome02.png"  class='etest-col-8' />
-点击网页操作，eTest插件提示 `添加一条操作事件` ，说明eTest插件正在记录用户在页面的操作。
+
+点击网页操作，eTest 插件提示 `添加一条操作事件` ，说明 eTest 插件正在记录用户在页面的操作。
 
 !> 点击时间， 文本框，下拉框改变 都会触发该动作
 
 <img src="../docs/img/chrome/chrome03.png"  class='etest-col-8' />
+
 选中文本，鼠标右键，选择期望的断言结果
 
 #### 断言值
@@ -90,7 +92,6 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 1. include:包含当前值
 1. exclude:不包含当前值
 
-<img src="../docs/img/chrome/chrome04.jpeg"  class='etest-col-2' />
 <img src="../docs/img/chrome/chrome05.jpeg"  class='etest-col-8' />
 
 点击右上 eTest 图标，结束测试脚本录制，并且生成测试脚本文件，下载到本地
@@ -100,14 +101,51 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 ### ete 设置启动
 
 <img src="../docs/img/ete/ete01.jpeg" class="etest-col-8" />
-<img src="../docs/img/ete/ete02.jpeg" class="etest-col-8" />
+ 
+ 打开集成测试 `点击上传json` 按钮,上传测试脚本，支持批量上传文件，上传后的文件支持拖动排序，
+
+!> 注意：测试的文件需按顺序执行，如果出现断层则会影响测试结果。
+
 <img src="../docs/img/ete/ete03.jpeg" class="etest-col-8" />
+
+测试文件支持默认 `选中`; 如果没有选中，在执行测试用例的过程中，则不被执行
+
 <img src="../docs/img/ete/ete04.jpeg" class="etest-col-8" />
+
+运行 ete 测试过程中，如果需要停止任务，可点击 `停止运行`，结束此次运行，运行结束后，生成测试报告`报告名称` 是项目名称加当前时间拼接成的，模式分为`自动`和`手动` 两种模式，自动：是定时任务运行的；手动：是用户自己运行的用例；
+
 <img src="../docs/img/ete/ete05.jpeg" class="etest-col-8" />
-<img src="../docs/img/ete/ete06.jpeg" class="etest-col-8" />
-<img src="../docs/img/ete/ete07.jpeg" class="etest-col-8" />
+
+展示测试报告详情，解析也页面 `断言结果`、 `请求接口错误` 、`页面错误` ，断言结果错误，则会**截图**展示错误结果，方便用户查看断言错误原因；页面在执行的过程中，出现了请求错误，则会抓取请求地址以及错误类型，展现在页面上； 页面错误：在运行 ete 过程中出现的错误，加载超时、找不到元素等，都会被列举出来。
+
 <img src="../docs/img/ete/ete08.jpeg" class="etest-col-8" />
+点击 `文件名称`,弹出测试用例详细信息，可以对 测试用例文件进行简单的编辑操作，如`assertions` 表示断言信息，`assertions.action`表示断言结果  如果熟悉[断言](#断言值) 可直接修改断言信息，保存运行提高测试的执行效率
+
+```json
+{
+  "editable": false,
+  "frameId": 0,
+  "linkUrl": "http://news.baidu.com/",
+  "menuItemId": "include",
+  "pageUrl": "https://www.baidu.com/",
+  "selectionText": "新闻",
+  "type": "assert",
+  "xpath": "//*[@id=\"s-top-left\"]",
+  "iframe": "",
+  "assertions": {
+    "value": "新闻",
+    "action": "include"
+  },
+  "indexNum": 12
+}
+```
+
+!> 如果修改的测试用例信息过多，建议重新录制脚本信息，防止文件执行过程报错，影响测试结果。
 
 ### 添加全局配置
 
 <img src="../docs/img/ete/ete09.jpeg" class="etest-col-8" />
+
+1. 无头模式：配置启动测试是否自动在无头模式下运行 默认是 `fasle`
+2. 开启录制：配置启动测试是否录制浏览器操作视频 默认是 `fasle`
+3. 超时时间： 浏览器在操作时，等待下一个操作的最长时间 默认是 `30s`
