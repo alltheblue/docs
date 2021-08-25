@@ -30,7 +30,6 @@
 ### 新建分组&设置
 
 <img src="../docs/img/api/api01.jpeg" class="etest-col-8" />
-
 <img src="../docs/img/api/api02.jpeg" class="etest-col-8" />
 
 点击`新增分组` 打开分组弹框，可以单个设置分组配置，分组请求头，分组请求参数，以及自定义分组结果断言
@@ -48,13 +47,14 @@
 <img src="../docs/img/api/api03.jpeg" class="etest-col-8" />
 <img src="../docs/img/api/api04.jpeg" class="etest-col-8" />
 
-点击`新建接口` 打开新建弹框，配置单个接口请求方式分为：`GET`、`POST`、`DELETE`、`PUT`、`HEAD`、`OPTIONS`；勾选`使用项目配置`则引用全局配置；url 地址： 如果勾选了`使用项目配置`则是项目配置的 baseUrl 与当前 url 参数拼接；下方的响应体、响应头、Cookie、[断言](#断言)、[**变量**](#变量设置)是接口请求后的操作 接口可拖动排序且也可以跨分组拖动排序。
+点击`新建接口` 打开新建弹框，配置单个接口请求方式分为：`GET`、`POST`、`DELETE`、`PUT`、`HEAD`、`OPTIONS`；勾选`使用项目配置`则引用全局配置；url 地址： 如果勾选了`使用项目配置`则是项目配置的 baseUrl 与当前 url 参数拼接；底部的响应体、响应头、Cookie、[断言](#断言)、[**变量**](#变量设置)是接口请求后的信息展示操作； 接口可拖动排序且也可以跨分组拖动排序。
 
-!> `单个编辑`、`批量编辑`是录入参数的两种方式，简单字段参数可以使用单个编辑；复杂数据类型使用批量编辑，建议使用批量编辑
+!> `单个编辑`、`批量编辑`是录入参数的两种方式，简单字段参数可以使用单个编辑；复杂数据类型使用批量编辑；建议使用批量编辑
 
 ### 断言
 
 接口断言主要是对 api 接口返回的值做期望值断言以及类型断言；
+
 <img src="../docs/img/api/api05.jpeg" class="etest-col-8" />
 <img src="../docs/img/api/api06.jpeg" class="etest-col-8" />
 
