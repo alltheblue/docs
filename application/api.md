@@ -25,10 +25,6 @@
 1.  上传下载数据包 :white_check_mark:
 1.  修改 content-type 值 :white_check_mark:
 
-<img src="../docs/img/api/api09.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api12.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api13.jpeg" class="etest-col-8" />
-
 ## 快速开始
 
 ### 新建分组&设置
@@ -38,15 +34,15 @@
 
 ### 添加全局配置
 
-<img src="../docs/img/api/api01.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api02.jpeg" class="etest-col-8" />
+<img src="../docs/img/api/api07.jpeg" class="etest-col-8" />
+<img src="../docs/img/api/api08.jpeg" class="etest-col-8" />
+<img src="../docs/img/api/api09.jpeg" class="etest-col-8" />
 <img src="../docs/img/api/api10.jpeg" class="etest-col-8" />
 
 ### 添加接口
 
-<img src="../docs/img/api/api07.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api08.jpeg" class="etest-col-8" />
-
+<img src="../docs/img/api/api01.jpeg" class="etest-col-8" />
+<img src="../docs/img/api/api02.jpeg" class="etest-col-8" />
 ### 断言
 
 接口断言主要是对 api 接口返回的值做期望值断言以及类型断言；
@@ -108,6 +104,11 @@ function myselfFun(value) {
 ```
 
 !> 如果该接口是工作流接口，则勾选后，执行批量测试，该接口不会被直接执行，而是根据自定义函数返回的结果，选择需要执行的接口
+
+### 测试结果
+
+<img src="../docs/img/api/api12.jpeg" class="etest-col-8" />
+<img src="../docs/img/api/api13.jpeg" class="etest-col-8" />
 
 ### 导出&导出文件
 
