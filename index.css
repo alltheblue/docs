@@ -5,6 +5,10 @@ img {
     margin: 4px;
 }
 
+.etest-img {
+    display: none;
+}
+
 .etest-col-2 {
     width: 20%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
