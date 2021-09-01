@@ -20,6 +20,7 @@
 1.  支持接口、分组拖拽排序 :heavy_check_mark:
 1.  支持全局配置请求头，分组配置请求头请求参数 :heavy_check_mark:
 1.  支持分组，单个接口复制 :heavy_check_mark:
+1.  支持 url 加入全局变量 :white_check_mark:
 1.  支持关联性接口测试 :heavy_check_mark:
 1.  支持导入导出 API 文件 :heavy_check_mark:
 1.  上传下载数据包 :white_check_mark:
