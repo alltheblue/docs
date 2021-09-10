@@ -23,8 +23,9 @@
 1.  支持 url 加入全局变量 :white_check_mark:
 1.  支持关联性接口测试 :heavy_check_mark:
 1.  支持导入导出 API 文件 :heavy_check_mark:
-1.  上传下载数据包 :white_check_mark:
-1.  修改 content-type 值 :white_check_mark:
+1.  上传下载数据包 :heavy_check_mark:
+1.  支持导入 Swagger :heavy_check_mark:
+1.  修改 content-type 值 :heavy_check_mark:
 
 ## 快速开始
 
