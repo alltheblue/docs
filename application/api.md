@@ -130,8 +130,12 @@ function myselfFun(value) {
 
 !> 单个接口请求不会生成测试报告
 
-### 导出&导出文件
+### 导入&导出文件
 
 <img src="../docs/img/api/api14.jpeg" class="etest-col-8" />
 
 支持导出 api 测试文件, 导入文件，可以快速构建项目，方便其他测试人员的构建项目
+
+### 导入 Swagger 文件
+
+获取 ‘api-docs’ 的文件链接，输入到文本框中，点击导入文件
