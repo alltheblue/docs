@@ -18,14 +18,15 @@
 1.  支持自定义函数 :heavy_check_mark:
 1.  支持分组选择 :heavy_check_mark:
 1.  支持接口、分组拖拽排序 :heavy_check_mark:
-1.  支持全局配置请求头，分组配置请求头请求参数 :heavy_check_mark:
+1.  支持全局配置请求头、分组配置请求头请求参数 :heavy_check_mark:
 1.  支持分组，单个接口复制 :heavy_check_mark:
-1.  支持 url 加入全局变量 :white_check_mark:
+1.  支持 url 配置变量 :white_check_mark:
 1.  支持关联性接口测试 :heavy_check_mark:
 1.  支持导入导出 API 文件 :heavy_check_mark:
 1.  上传下载数据包 :heavy_check_mark:
 1.  支持导入 Swagger :heavy_check_mark:
 1.  修改 content-type 值 :heavy_check_mark:
+1.  支持单个编辑与批量直接的切换 :heavy_check_mark:
 
 ## 快速开始
 
@@ -138,4 +139,4 @@ function myselfFun(value) {
 
 ### 导入 Swagger 文件
 
-获取 ‘api-docs’ 的文件链接，输入到文本框中，点击导入文件
+获取 ‘api-docs’ 的文件链接，输入到 url 框中，点击导入文件,自动生成分组的接口列表
