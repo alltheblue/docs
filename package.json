@@ -1,0 +1,16 @@
+{
+  "name": "eTest-docs",
+  "version": "1.0.0",
+  "description": "一个简单易用的集成测试应用",
+  "homepage": "https://onepiece-smile.github.io/docs/#/",
+  "main": "index.js",
+  "keywords": [
+    "ETE",
+    "UI",
+    "API",
+    "Ab",
+    "eTest"
+  ],
+  "author": "xflihaibo",
+  "license": "ISC"
+}

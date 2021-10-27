@@ -2,7 +2,7 @@
 
 # eTest<small>V1.0.0</small>
 
-> 一个简单易用的集成测试系统
+> 一个简单易用的集成测试应用
 
 [GitHub](https://github.com/onepiece-smile/docs)
 [Get Started](/README)
