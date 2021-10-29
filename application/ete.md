@@ -42,6 +42,8 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 16. 支持错误截图 :heavy_check_mark:
 17. 支持在线修改 json 数据 :heavy_check_mark:
 18. 支持用例拖拽排序 :heavy_check_mark:
+19. 支持导出性能优化报告（lighthouse） :white_check_mark:
+20. 支持执行操作之前记录跟踪 :white_check_mark:
 
 ## 快速开始
 
