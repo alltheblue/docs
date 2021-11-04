@@ -42,7 +42,7 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 16. 支持错误截图 :heavy_check_mark:
 17. 支持在线修改 json 数据 :heavy_check_mark:
 18. 支持用例拖拽排序 :heavy_check_mark:
-19. 支持导出性能优化报告（lighthouse） :white_check_mark:
+19. 支持导出性能优化报告（lighthouse） :heavy_check_mark:
 20. 支持执行操作之前记录跟踪 :white_check_mark:
 
 ## 快速开始
@@ -122,6 +122,10 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 
 展示测试报告详情，解析也页面 `断言结果`、 `请求接口错误` 、`页面错误` ，断言结果错误，则会**截图**展示错误结果，方便用户查看断言错误原因；页面在执行的过程中，出现了请求错误，则会抓取请求地址以及错误类型，展现在页面上； 页面错误：在运行 ete 过程中出现的错误，加载超时、找不到元素等，都会被列举出来。
 
+<img src="../docs/img/ete/ete11.jpeg" class="etest-col-8" />
+
+设置`性能分析`后，ete 在测试结束时也会导出页面性能的分析报告，开发人员可以通过分析报告，参考[web.dev](https://web.dev/performance-scoring/?utm_source=lighthouse&utm_medium=node)完成对页面的性能优化，提升了页面的加载性能的优化。
+
 <img src="../docs/img/ete/ete08.jpeg" class="etest-col-8" />
 
 点击 `文件名称`,弹出测试用例详细信息，可以对 测试用例文件进行简单的编辑操作，如`assertions` 表示断言信息，`assertions.action`表示断言结果, 如果熟悉[**断言** ](#断言值)可直接修改断言信息，保存运行提高测试的执行效率
@@ -149,8 +153,9 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 
 ### 添加全局配置
 
-<img src="../docs/img/ete/ete09.jpeg" class="etest-col-8" />
+<img src="../docs/img/ete/ete12.jpeg" class="etest-col-8" />
 
 1. 无头模式：配置启动测试是否自动在无头模式下运行 默认是 `fasle`
-2. 开启录制：配置启动测试是否录制浏览器操作视频 默认是 `fasle`
+<!-- 2. 开启录制：配置启动测试是否录制浏览器操作视频 默认是 `fasle` -->
+2. 性能分析： 浏览器测试时，是否收集性能分析报告， 默认是 `fasle`
 3. 超时时间： 浏览器在操作时，等待下一个操作的最长时间 默认是 `30s`
