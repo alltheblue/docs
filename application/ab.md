@@ -23,8 +23,8 @@ ab 压力测试同 api 测试一样，对测试人员的编码能力有一定的
 
 ## 快速开始
 
-<img src="../docs/img/ab/ab01.jpeg" class="etest-col-8" />
-<img src="../docs/img/ab/ab02.jpeg" class="etest-col-8" />
-<img src="../docs/img/ab/ab03.jpeg" class="etest-col-8" />
-<img src="../docs/img/ab/ab04.jpeg" class="etest-col-8" />
-<img src="../docs/img/ab/ab05.jpeg" class="etest-col-8" />
+![快速开始](../img/ab/ab01.jpeg '::etest-col-8')
+![快速开始](../img/ab/ab02.jpeg '::etest-col-8')
+![快速开始](../img/ab/ab03.jpeg '::etest-col-8')
+![快速开始](../img/ab/ab04.jpeg '::etest-col-8')
+![快速开始](../img/ab/ab05.jpeg '::etest-col-8')

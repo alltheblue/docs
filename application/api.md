@@ -34,17 +34,17 @@
 
 ### 新建分组&设置
 
-<img src="../docs/img/api/api01.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api02.jpeg" class="etest-col-8" />
+![新建分组&设置](../img/api/api01.jpeg '::etest-col-8')
+![新建分组&设置](../img/api/api02.jpeg '::etest-col-8')
 
 点击`新增分组` 打开分组弹框，可以单个设置分组配置，分组请求头，分组请求参数，以及自定义分组结果断言
 ，设置后的分组配置信息，默认是对该分组内的数据生效。分组可拖动排序。复制分组：对分组参数相同，只是个别参数不同可以使用复制分组，提高测试效率
 
 ### 添加全局配置
 
-<img src="../docs/img/api/api10.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api08.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api09.jpeg" class="etest-col-8" />
+![添加全局配置](../img/api/api10.jpeg '::etest-col-8')
+![添加全局配置](../img/api/api08.jpeg '::etest-col-8')
+![添加全局配置](../img/api/api09.jpeg '::etest-col-8')
 
 点击`配置`弹出全局配置框，全局配置参数 baseUrl、 超时时间（单位毫秒，默认 30000）、重复执行次数、请求头设置、
 自定义返回值主要是对一些接口返回的参数做了二次封装后吗，对返回`200`状态码无法判断结果争取与否，才需要自定义返回值。请求头设置主要设置一些自定义头部参数，或者 token 参数设置。
@@ -53,8 +53,8 @@
 
 ### 添加接口
 
-<img src="../docs/img/api/api03.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api04.jpeg" class="etest-col-8" />
+![添加接口](../img/api/api03.jpeg '::etest-col-8')
+![添加接口](../img/api/api04.jpeg '::etest-col-8')
 
 点击`新建接口` 打开新建弹框，配置单个接口请求方式分为：`GET`、`POST`、`DELETE`、`PUT`、`HEAD`、`OPTIONS`；勾选`使用项目配置`则引用全局配置；url 地址： 如果勾选了`使用项目配置`则是项目配置的 baseUrl 与当前 url 参数拼接；底部的响应体、响应头、Cookie、[断言](#断言)、[**变量**](#变量设置) 是接口请求后的信息展示操作； 接口可拖动排序且也可以跨分组拖动排序。
 
@@ -64,8 +64,8 @@
 
 接口断言主要是对 api 接口返回的值做期望值断言以及类型断言；
 
-<img src="../docs/img/api/api05.jpeg" class="etest-col-8" />
-<img src="../docs/img/api/api06.jpeg" class="etest-col-8" />
+![断言](../img/api/api05.jpeg '::etest-col-8')
+![断言](../img/api/api06.jpeg '::etest-col-8')
 
 #### 类型断言
 
@@ -125,9 +125,8 @@ function myselfFun(value) {
 
 ### 测试报告
 
-<img src="../docs/img/api/api12.jpeg" class="etest-col-8" />
-
-<img src="../docs/img/api/api13.jpeg" class="etest-col-8" />
+![测试报告](../img/api/api12.jpeg '::etest-col-8')
+![测试报告](../img/api/api13.jpeg '::etest-col-8')
 
 测试报告收集展示当前测试结果信息数据，包含 请求地址、描述、请求方式、请求头、请求参数、响应结果、断言&类型检测；点击 `请求头`、`请求参数`、`响应结果`可以查看接口请求过程中的详细参数信息。
 
@@ -135,7 +134,7 @@ function myselfFun(value) {
 
 ### 导入&导出文件
 
-<img src="../docs/img/api/api14.jpeg" class="etest-col-8" />
+![导入&导出文件](../img/api/api14.jpeg '::etest-col-8')
 
 支持导出 api 测试文件, 导入文件，可以快速构建项目，方便其他测试人员的构建项目
 
