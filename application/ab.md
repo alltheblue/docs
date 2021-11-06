@@ -2,6 +2,8 @@
 
 <!-- ###### 由于日常迭代开发紧张，该功能正在紧急开发中..., 敬请期待 🙏🙏🙏🙏 -->
 
+<iframe src=""//player.bilibili.com/player.html?aid=976602317&bvid=BV1i44y1e74h&cid=437420996&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" framespacing="0"  height="600"  style=”width: 100%;height: 500px; max-width: 100%;align:center;padding:20px 0;” > </iframe>
+
 ## 解决痛点
 
 ab 压力测试同 api 测试一样，对测试人员的编码能力有一定的要求，而且如果不在项目上线前做压力测试，就无法精确计算 qps，导致上线后无法确定是否需要加服务器，造成不要的成本浪费，压测可以很好的为计算项目的 qps 提供参考指标，真正做到上线有数。
@@ -24,7 +26,13 @@ ab 压力测试同 api 测试一样，对测试人员的编码能力有一定的
 ## 快速开始
 
 ![快速开始](../img/ab/ab01.jpeg '::etest-col-8')
+
+导入数据，需要压力测试的接口需来自于 `API`接口测试数据，所以做接口的压力测试需要首先完善`API`接口测试，导入的接口列表数据与`API`测试共享数据，如果`API`接口改变，会自动同步到`压力测试`，修改参数，返回结果可以参考 [API 接口文档](application/api.md)。
+
 ![快速开始](../img/ab/ab02.jpeg '::etest-col-8')
-![快速开始](../img/ab/ab03.jpeg '::etest-col-8')
 ![快速开始](../img/ab/ab04.jpeg '::etest-col-8')
+![快速开始](../img/ab/ab06.PNG '::etest-col-8')
+
 ![快速开始](../img/ab/ab05.jpeg '::etest-col-8')
+
+![快速开始](../img/ab/ab07.jpeg '::etest-col-8')
