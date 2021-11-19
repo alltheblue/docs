@@ -47,7 +47,8 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 21. 支持多 tab 页间的切换 :heavy_check_mark:
 22. 支持测试用例每一步的操作截图 :heavy_check_mark:
 23. 支持单步调试功能 :heavy_check_mark:
-24. 支持执行操作记录跟踪 :white_check_mark:
+24. 支持高级配置自定义对输入、断言修改 :heavy_check_mark:
+25. 支持执行操作记录跟踪 :white_check_mark:
 
 ## 快速开始
 
