@@ -8,7 +8,7 @@
 
 ## 流程图
 
-![logo](../img/apiliucheng.png)
+![logo](../img/api.png)
 
 ## 功能列表
 

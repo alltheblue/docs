@@ -8,7 +8,7 @@
 
 ## UI 还原测试流程图
 
-![logo](../img/ui.jpeg)
+![logo](../img/ui.png)
 
 ## 功能列表
 
