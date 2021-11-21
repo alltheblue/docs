@@ -1,7 +1,5 @@
 # 压力测试
 
-<!-- ###### 由于日常迭代开发紧张，该功能正在紧急开发中..., 敬请期待 🙏🙏🙏🙏 -->
-
 <iframe src="//player.bilibili.com/player.html?aid=976602317&bvid=BV1i44y1e74h&cid=437420996&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" framespacing="0"  height="600"  style=”width: 100%;height: 500px; max-width: 100%;align:center;padding:20px 0;” > </iframe>
 
 ## 解决痛点
@@ -10,7 +8,7 @@ ab 压力测试同 api 测试一样，对测试人员的编码能力有一定的
 
 ## 流程图
 
-![logo](../img/ab.jpeg)
+![logo](../img/ab.png)
 
 ## 功能列表
 

@@ -8,7 +8,7 @@
 
 ## UI 还原测试流程图
 
-![logo](../img/ui.jpeg)
+![logo](../img/ui.png)
 
 ## 功能列表
 01. 支持UI设计图和网页url比较 :heavy_check_mark:

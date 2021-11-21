@@ -8,7 +8,7 @@
 
 ## 流程图
 
-![logo](../img/apiliucheng.png)
+![logo](../img/api.png)
 
 ## 功能列表
 
@@ -29,6 +29,20 @@
 1.  支持导入 Swagger :heavy_check_mark:
 1.  修改 content-type 值 :heavy_check_mark:
 1.  支持单个编辑与批量直接的切换 :heavy_check_mark:
+
+<!-- API测试的特点可以参考下：
+一键回归/冒烟测试
+快速创建测试用例
+自动生成测试数据
+丰富详细的测试报告
+与 API 文档关联与自动同步
+0代码，拖拉拽完成测试流程编排
+统一管理测试数据
+对数据库进行操作
+定时自动测试
+测试报告自动推送
+丰富的 Open API
+与 Gitlab、Jenkins、钉钉、企业微信、飞书等平台集成 -->
 
 ## 快速开始
 
