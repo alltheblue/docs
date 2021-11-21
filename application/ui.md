@@ -11,5 +11,13 @@
 ![logo](../img/ui.jpeg)
 
 ## 功能列表
+01. 支持UI设计图和网页url比较 :heavy_check_mark:
+02. 支持UI设计图和截图比较 :heavy_check_mark:
+03. 支持运行还原测试时，排除掉某些项目 :heavy_check_mark:
+04. 支持批量新增 :heavy_check_mark:
+05. 支持设备类型设置，区分PC和Mobile :heavy_check_mark:
+06. 支持自定义对比颜色 :heavy_check_mark:
+07. 支持生成测试报告 :heavy_check_mark:
+08. 支持在生成的对比图片上备注 :white_check_mark:
 
 ## 快速开始
