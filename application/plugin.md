@@ -94,6 +94,22 @@ function myselfPlugin(config, callBack) {
 6. 生成报告&发送消息前(resultBefore)：批量修改测试报告、批量修改推送信息、定义推送规则、自定义推送 api
 7. 生成报告&发送消息后(resultAfter)：自定义 api
 
+##### config
+
+| 参数        | 说明                     | 类型    | 默认值 | 有效使用周期                                     |
+| ----------- | ------------------------ | ------- | ------ | ------------------------------------------------ |
+| config      | 项目配置信息和项目信息   | object  | -      | ALL                                              |
+| headers     | 单个请求头 信息          | object  | -      | stepBefore、stepAfter                            |
+| params      | 单个请求参数信息         | object  | -      | stepBefore、stepAfter                            |
+| temporary   | 全局变量信息参数         | object  | -      | stepBefore、stepAfter                            |
+| interface   | 接口类型                 | Array   | -      | stepBefore、stepAfter                            |
+| response    | 接口返回值               | object  | -      | stepBefore、stepAfter                            |
+| report      | 测试报告结果             | Array   | -      | stepBefore、stepAfter、resultBefore、resultAfter |
+| lifeCycle   | 周期名称                 | string  | -      | ALL                                              |
+| sendNotice  | 是否在执行完毕后发生消息 | boolean | -      | resultBefore、resultAfter                        |
+| itemInfo    | 当前单个执行参数信息     | object  | -      | resultBefore、resultAfter                        |
+| groupConfig | 分组配置                 | object  | -      | resultBefore、resultAfter                        |
+
 ### 压力
 
 <!--
