@@ -25,6 +25,10 @@ function myselfFun(config) {
 
 ### ETE
 
+#### ETE 插件执行流程图
+
+![ETE](../img/plugin/ete.jpeg)
+
 #### 生命周期钩子
 
 1. 初始化参数前(initBefore)：自定义是否需要执行、 自定义 api、 修改配置参数(设置 无头模式，性能分析，行为快照，开启调试，高就配置，插件，超时时间)。
@@ -56,12 +60,12 @@ function myselfPlugin(config, callBack) {
 
 | 参数       | 说明                               | 类型    | 默认值 | 有效使用周期                                     |
 | ---------- | ---------------------------------- | ------- | ------ | ------------------------------------------------ |
-| params     | 单个执行参数信息                   | object  | -      | stepBefore、stepAfter                            |
 | config     | 项目配置信息和项目信息             | object  | -      | ALL                                              |
+| params     | 单个执行参数信息                   | object  | -      | stepBefore、stepAfter                            |
+| content    | 每一次执行用例测试的 html 页面内容 | string  | -      | stepBefore、stepAfter                            |
 | report     | 测试报告结果                       | Array   | -      | stepBefore、stepAfter、resultBefore、resultAfter |
 | lifeCycle  | 周期名称                           | string  | -      | ALL                                              |
 | sendNotice | 是否在执行完毕后发生消息           | boolean | -      | resultBefore、resultAfter                        |
-| content    | 每一次执行用例测试的 html 页面内容 | string  | -      | stepBefore、stepAfter                            |
 
 #### callBack(param1,param2) `tapable`暴露的周期函数
 
@@ -71,44 +75,72 @@ function myselfPlugin(config, callBack) {
 | ------ | ------------------------------------------------ | ----------- | ------ | ------------ |
 | param1 | 如果参数不为 null,则返回执行错误并且停止执行测试 | null string | -      | ALL          |
 
-##### param2
+##### param2(插件修改返回值)
 
 | 参数       | 说明                     | 类型    | 默认值 | 有效使用周期                        |
 | ---------- | ------------------------ | ------- | ------ | ----------------------------------- |
-| params     | 单个执行参数             | object  | -      | stepBefore、stepAfter               |
 | config     | 项目配置信息和项目信息   | object  | -      | initBefore、initAfter               |
+| params     | 单个执行参数             | object  | -      | stepBefore、stepAfter               |
 | report     | 测试报告结果             | Array   | -      | stepBefore、stepAfter、resultBefore |
-| sendNotice | 是否在执行完毕后发生消息 | boolean | -      | stepBefore、stepAfter、resultBefore |
-| isEllipsis | 是否省略执行本次测试用例 | boolean | false  | stepBefore、stepAfter               |
+| sendNotice | 是否在执行完毕后发生消息 | boolean | -      | resultBefore                        |
+| isEllipsis | 是否省略执行本次测试用例 | boolean | false  | stepBefore                          |
 | isReplace  | 是否是替换测试报告       | boolean | false  | stepBefore、stepAfter               |
 
 ### API
+
+#### API 插件执行流程图
+
+![api](../img/plugin/api.jpeg)
 
 #### 生命周期钩子
 
 1. 初始化参数前(initBefore)：自定义是否需要执行、 自定义 api、 修改配置参数(设置 无头模式，性能分析，行为快照，开启调试，高就配置，插件，超时时间)。
 2. 单步执行前(stepBefore)：单个定义过滤执行用例（满足条件）、单个修改参数（在文件中查找）、链接数据库断言、单个自定义断言、自定义 api。
 3. 完成参数初始化且请求前(requesBefore):修改请求头，请求体，或终止操作
-4. 请求返回后(requestAfter):修改返回参数
+4. 请求返回后(requestAfter):修改返回值
 5. 单步执行后(stepAfter)：单个修改断言、单个替换断言、链接数据库断言、自定义 api。
 6. 生成报告&发送消息前(resultBefore)：批量修改测试报告、批量修改推送信息、定义推送规则、自定义推送 api
 7. 生成报告&发送消息后(resultAfter)：自定义 api
 
 ##### config
 
-| 参数        | 说明                     | 类型    | 默认值 | 有效使用周期                                     |
-| ----------- | ------------------------ | ------- | ------ | ------------------------------------------------ |
-| config      | 项目配置信息和项目信息   | object  | -      | ALL                                              |
-| headers     | 单个请求头 信息          | object  | -      | stepBefore、stepAfter                            |
-| params      | 单个请求参数信息         | object  | -      | stepBefore、stepAfter                            |
-| temporary   | 全局变量信息参数         | object  | -      | stepBefore、stepAfter                            |
-| interface   | 接口类型                 | Array   | -      | stepBefore、stepAfter                            |
-| response    | 接口返回值               | object  | -      | stepBefore、stepAfter                            |
-| report      | 测试报告结果             | Array   | -      | stepBefore、stepAfter、resultBefore、resultAfter |
-| lifeCycle   | 周期名称                 | string  | -      | ALL                                              |
-| sendNotice  | 是否在执行完毕后发生消息 | boolean | -      | resultBefore、resultAfter                        |
-| itemInfo    | 当前单个执行参数信息     | object  | -      | resultBefore、resultAfter                        |
-| groupConfig | 分组配置                 | object  | -      | resultBefore、resultAfter                        |
+| 参数        | 说明                       | 类型    | 默认值 | 有效使用周期                                                                 |
+| ----------- | -------------------------- | ------- | ------ | ---------------------------------------------------------------------------- |
+| config      | 项目配置信息和项目信息     | object  | -      | ALL                                                                          |
+| itemInfo    | 当前单个执行参数信息       | object  | -      | stepBefore、stepAfter                                                        |
+| groupConfig | 分组配置                   | object  | -      | stepBefore、stepAfter                                                        |
+| headers     | 单个请求头 信息            | object  | -      | requesBefore                                                                 |
+| params      | 单个请求参数信息           | object  | -      | requesBefore                                                                 |
+| temporary   | 全局变量信息参数，动态添加 | object  | -      | ALL                                                                          |
+| response    | 接口返回值                 | object  | -      | requestAfter                                                                 |
+| interface   | 接口类型                   | Array   | -      | requestAfter                                                                 |
+| report      | 测试报告结果               | Array   | -      | stepBefore、requesBefore、requestAfter、stepAfter、resultBefore、resultAfter |
+| lifeCycle   | 周期名称                   | string  | -      | ALL                                                                          |
+| sendNotice  | 是否在执行完毕后发生消息   | boolean | -      | resultBefore、resultAfter                                                    |
+
+#### callBack(param1,param2) `tapable`暴露的周期函数
+
+##### param1
+
+| 参数   | 说明                                             | 类型        | 默认值 | 有效使用周期 |
+| ------ | ------------------------------------------------ | ----------- | ------ | ------------ |
+| param1 | 如果参数不为 null,则返回执行错误并且停止执行测试 | null string | -      | ALL          |
+
+##### param2(插件修改返回值)
+
+| 参数        | 说明                       | 类型    | 默认值 | 有效使用周期                                        |
+| ----------- | -------------------------- | ------- | ------ | --------------------------------------------------- |
+| config      | 项目配置信息和项目信息     | object  | -      | initBefore                                          |
+| temporary   | 全局变量信息参数，动态添加 | object  | -      | stepBefore、requesBefore 、requestAfter , stepAfter |
+| headers     | 单个请求头 信息            | object  | -      | requesBefore                                        |
+| params      | 单个执行参数               | object  | -      | requesBefore                                        |
+| itemInfo    | 当前单个执行参数信息       | object  | -      | stepBefore                                          |
+| groupConfig | 分组配置                   | object  | -      | stepBefore                                          |
+| response    | 接口返回值                 | object  | -      | requestAfter                                        |
+| report      | 测试报告结果               | Array   | -      | stepBefore、stepAfter、resultBefore                 |
+| sendNotice  | 是否在执行完毕后发生消息   | boolean | -      | resultBefore                                        |
+| isEllipsis  | 是否省略执行本次测试用例   | boolean | false  | stepBefore                                          |
+| isReplace   | 是否是替换测试报告         | boolean | false  | stepBefore、stepAfter                               |
 
 ### 压力
 
