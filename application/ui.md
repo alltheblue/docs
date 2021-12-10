@@ -21,6 +21,6 @@
 7.  支持生成测试报告 :heavy_check_mark:
 8.  支持自定义配置颜色 :heavy_check_mark:
 9.  支持自定义截图设置 cookie :heavy_check_mark:
-10. 支持在生成的对比图片上备注 :white_check_mark:
+10. 支持在线对生成的对比图片做备注 :white_check_mark:
 
 ## 快速开始
