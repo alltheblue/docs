@@ -22,7 +22,7 @@
 8.  支持自定义配置颜色 :heavy_check_mark:
 9.  支持自定义截图设置 cookie :heavy_check_mark:
 10. 支持在线对生成的对比图片做备注 :heavy_check_mark:
-10. 支持在线批量下载对比图片 :heavy_check_mark:
+11. 支持在线批量下载对比图片 :heavy_check_mark:
 
 ## 快速开始
 
