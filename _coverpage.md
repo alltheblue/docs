@@ -4,5 +4,5 @@
 
 > 一个简单易用的集成测试应用
 
-[GitHub](https://github.com/onepiece-smile/docs)
+[下载](https://github.com/onepiece-smile/docs/releases)
 [Get Started](/README)
