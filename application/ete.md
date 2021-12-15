@@ -49,8 +49,8 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 23. 支持单步调试功能 :heavy_check_mark:
 24. 支持高级配置自定义对输入、断言修改 :heavy_check_mark:
 25. 支持获取页面的文本设置当前执行的变量 :heavy_check_mark:
-26. 支持自定义函数、自定义插件扩展:white_check_mark:
-27. 支持执行操作记录跟踪 :white_check_mark:
+26. 支持执行操作记录跟踪 :heavy_check_mark:
+27. 支持自定义函数、自定义插件扩展:white_check_mark:
 
 ## 快速开始
 
@@ -173,6 +173,11 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 6. 高级配置：`开启高级配置` 需要再`高级配置`中，配置环境变量，
 
 ![添加全局配置](../img/ete/ete19.jpeg '::etest-col-8')
+
+![添加全局配置](../img/ete/ete20.jpeg '::etest-col-8')
+
+用于收集和保存测试操作痕迹的 API，eTest 测试脚本运行后，可以在跟踪查看器中打开测试痕迹跟踪
+
 ![添加全局配置](../img/ete/ete18.jpeg '::etest-col-8')
 
 ### 高级配置
