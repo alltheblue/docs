@@ -31,11 +31,18 @@ img {
     width: 70%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
 }
+.etest-col-5,
+img[title='::etest-col-5'] {
+    width: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+
 .etest-col-8,
 img[title='::etest-col-8'] {
     width: 80%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
 }
+
 .etest-col-9 {
     width: 90%;
 }
