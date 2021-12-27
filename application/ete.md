@@ -50,7 +50,8 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 24. 支持高级配置自定义对输入、断言修改 :heavy_check_mark:
 25. 支持获取页面的文本设置当前执行的变量 :heavy_check_mark:
 26. 支持执行操作记录跟踪 :heavy_check_mark:
-27. 支持自定义函数、自定义插件扩展:white_check_mark:
+27. 支持自动收集页面滚动数据 :heavy_check_mark:
+28. 支持自定义函数、自定义插件扩展:white_check_mark:
 
 ## 快速开始
 
@@ -58,13 +59,19 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 
 !> Chrome 插件下载方式 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) 或者 [eTest github 下载](https://github.com/onepiece-smile/docs/releases)
 
+### 设置插件开启无痕模式
+
+![录制脚本文件](../img/ete/ete22.jpeg '::etest-col-8')
+![录制脚本文件](../img/ete/ete23.jpeg '::etest-col-8')
+![录制脚本文件](../img/ete/ete21.png '::etest-col-8')
+
 ### 录制脚本文件
 
 ![录制脚本文件](../img/chrome/chrome01.png '::etest-col-8')
 
 打开右上角的 chrome 插件 点击小图标出现 `start` 状态，表示已启动测试脚本录制
 
-?> 由于在脚本回放打开的是无痕浏览模式，所以在录制脚本的时候请先清除历史痕迹，保证回放的时候的正确性
+?> 由于在脚本回放打开的是无痕浏览模式，所以在录制脚本的时候请先清除历史痕迹，保证回放的时候的正确性，或者开启无痕模式录制脚本信息
 
 ![录制脚本文件](../img/chrome/chrome02.png '::etest-col-8')
 
