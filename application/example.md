@@ -46,6 +46,7 @@
 4. 支持定时测试任务 :heavy_check_mark:
 5. 设置定时任务错误阀值 80% :heavy_check_mark:
 6. 旧版本强制更新 :heavy_check_mark:
+7. 导出测试报告 :heavy_check_mark:
 
 ## 暂不支持
 
