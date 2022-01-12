@@ -5,4 +5,4 @@
 -   [API](./application/api.md)
 -   [压力](./application/ab.md)
 -   [扩展管理](./application/plugin.md)
--   [错误信息列表](./application/plugin.md)
+-   [错误信息列表](./application/code.md)
