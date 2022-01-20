@@ -32,6 +32,7 @@
 1.  支持高级配置自定义函数修改设置的全局变量 :heavy_check_mark:
 1.  支持响应头头断言并且可以生成全局变量 :heavy_check_mark:
 1.  支持添加 API 接口智能录入接口参数信息数据 :heavy_check_mark:
+1.  支持导入 postman :heavy_check_mark:
 
 <!-- API测试的特点可以参考下：
 一键回归/冒烟测试
