@@ -31,6 +31,13 @@ img {
     width: 70%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
 }
+
+.etest-col-3,
+img[title='::etest-col-3'] {
+    width: 30%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+
 .etest-col-5,
 img[title='::etest-col-5'] {
     width: 50%;
