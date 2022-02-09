@@ -2,7 +2,7 @@
 
 ## 新建项目
 
-![新建项目](../img/group/group02.jpeg '::etest-col-8')
+![新建项目](../img/group/group03.jpeg '::etest-col-8')
 
 点击 **新建项目** 创建需要测试的项目名称，如果对 [**定时任务** ](#定时任务配置)配置了定时任务，如果需要及时收到测试结果，可以配置[**钉钉推送**](#设置钉钉推送)
 
@@ -29,6 +29,13 @@
 
 复制 url 连接，获取 url 的参数 token
 
+### 创建飞书项目群
+
+![创建飞书项目群](../img/feishu/001.jpeg '::etest-col-8')
+![创建飞书项目群](../img/feishu/002.jpeg '::etest-col-8')
+![创建飞书项目群](../img/feishu/003.jpeg '::etest-col-8')
+复制 url 连接，获取 url 的参数 token,安全设置勾选 `签名校验` ,然后妥善保存密钥
+
 ## 定时任务配置
 
 ![定时任务配置](../img/task/task01.jpeg '::etest-col-8')
@@ -47,6 +54,7 @@
 5. 设置定时任务错误阀值 80% :heavy_check_mark:
 6. 旧版本强制更新 :heavy_check_mark:
 7. 导出测试报告 :heavy_check_mark:
+8. 飞书消息推送 :heavy_check_mark:
 
 ## 暂不支持
 
