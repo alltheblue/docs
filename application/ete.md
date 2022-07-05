@@ -51,7 +51,10 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 25. 支持获取页面的文本设置当前执行的变量 :heavy_check_mark:
 26. 支持执行操作记录跟踪 :heavy_check_mark:
 27. 支持自动收集页面滚动数据 :heavy_check_mark:
-28. 支持自定义函数、自定义插件扩展:white_check_mark:
+28. 支持页面快捷键操作 :heavy_check_mark:
+29. 支持分组维护 :heavy_check_mark:
+30. 支持文件重命名 :heavy_check_mark:
+31. 支持自定义函数、自定义插件扩展:white_check_mark:
 
 ## 快速开始
 
