@@ -1,3 +1,3 @@
 -   [eTest](/application/)
--   [关于我们](/about/)
+-   [version](/about/)
 -   [GitHub](https://github.com/alltheblue/docs)

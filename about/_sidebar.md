@@ -1,2 +1,2 @@
-- [团队成员](about/team.md)
-- [更新信息](about/version.md)
+- [version](about/)
+- [team](about/team.md)
