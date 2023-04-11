@@ -158,6 +158,31 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
     "indexNum": 0,
     "date": 1678243527820,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+    "cookies": [
+            {
+                "domain": "www.baidu.com",
+                "expirationDate": 1711066469,
+                "hostOnly": true,
+                "httpOnly": false,
+                "name": "MSA_WH",
+                "path": "/",
+                "sameSite": "unspecified",
+                "secure": false,
+                "session": false,
+                "storeId": "0",
+                "value": "3901244"
+            },
+    ],
+    "localStorage": {
+            "BAIDU_PRIVATE": "16ww496207",
+            "squarePop": "1",
+            "___ds_storage__eqid": "xxx|1679995377511",
+            "index_ls_qid": "xxx"
+    },
+     "sessionStorage": { 
+      "BAIDU_PRIVATE": "xxx"
+      },
+    
     "isMobile": false,
     "hasTouch": false,
     "deviceScaleFactor": 1,
@@ -363,6 +388,7 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 6. 开启环境配置： ：`开启环境配置：` 需要再`高级配置`中，配置环境配置，不开启`高级配置 `中的插件配置不被生效
 7. 超时时间：浏览器在操作时，等待下一个操作的最长时间 默认是 `60s`
 8. 延迟时间：由于一些特色场景需要设置长时间等待，最大不得超过`60s`， `延迟时间`与 `超时时间`同时设置延迟时间不得超过超时时间
+9. 内存缓存：对与一些需要登录的后才可以录制的状态，将参数存在`cookies`、`localStorage`中，这种情况只要开启此功能，会在开启页面的时候将数据塞进浏览器中，对 `sessionStorage`缓存无效，并且多个脚本同一个 `key`不同的`value`有优先使用第一个，
 
 ![添加全局配置](../img/ete/ete19.jpeg '::etest-col-8')
 
