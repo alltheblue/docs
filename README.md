@@ -7,6 +7,10 @@
 -   **强大的扩展能力**
 -   **自动化运行定时任务以及测试结果推送机制**
 
+
+[立即体验](https://alltheblue.github.io/docs/)
+
+
 <!-- ### 下载
 
 [立即体验下载](https://github.com/onepiece-smile/docs/releases)
