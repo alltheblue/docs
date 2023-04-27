@@ -2,7 +2,7 @@
 
 # eTest<small>V1.0.0</small>
 
-> 一个简单易用的集成测试应用
+> 一个简单易用的集成测试框架
 
 [下载](https://github.com/alltheblue/docs/releases)
-[Get Started](https://github.com/alltheblue/docs)
+[Get Started](https://alltheblue.github.io/docs/#/application/example)
