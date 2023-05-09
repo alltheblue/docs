@@ -1,6 +1,6 @@
 # 系统更新信息
 
-### 2023-05-09 eTest 自动化测试工具v1.1.15&eTest-plugin V_1.3.4 Latest
+### 2023-05-09 eTest 自动化测试工具v1.1.15&eTest-plugin V_1.3.4 
 1. 修复eTest-plugin插件录制脚本bug
 2. eTest 修复网络鉴定
 3. 修改消息通知
