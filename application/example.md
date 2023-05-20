@@ -58,10 +58,4 @@
 7. 导出测试报告 :heavy_check_mark:
 8. 飞书消息推送 :heavy_check_mark:
 
-## 暂不支持
 
-1. 页面元素拖拽 :white_check_mark:
-2. 下拉框多选问题 :white_check_mark:
-3. redio 操作有点问题 需要点击到 click :white_check_mark:
-4. 快捷键输入 :white_check_mark:
-5. 多 tab 页面交互操作 :white_check_mark:
