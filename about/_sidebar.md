@@ -1,2 +1,4 @@
-- [version](about/)
-- [team](about/team.md)
+- [版本记录](about/)
+- [社区](about/quesion.md)
+- [团队](about/team.md)
+

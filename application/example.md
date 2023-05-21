@@ -50,12 +50,10 @@
 ## 支持功能
 
 1. 支持获取当前网络状态 :heavy_check_mark:
-2. 监控 eTest 后台系统报错收集 :heavy_check_mark:
-3. 支持请求错误数据收集汇总 :heavy_check_mark:
-4. 支持定时测试任务 :heavy_check_mark:
-5. 设置定时任务错误阀值 80% :heavy_check_mark:
-6. 旧版本强制更新 :heavy_check_mark:
-7. 导出测试报告 :heavy_check_mark:
-8. 飞书消息推送 :heavy_check_mark:
-
-
+2. 支持请求错误数据收集汇总 :heavy_check_mark:
+3. 支持定时测试任务 :heavy_check_mark:
+4. 设置定时任务错误阀值 80% :heavy_check_mark:
+5. 旧版本提示更新 :heavy_check_mark:
+6. 导出测试报告 :heavy_check_mark:
+7. 飞书消息推送 :heavy_check_mark:
+8. 导出项目 :heavy_check_mark:
