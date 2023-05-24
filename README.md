@@ -1,6 +1,9 @@
-# hello eTest
+<img src="./img/home.jpeg" width="50%" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1)" />
 
-<!-- **一个集成 ui 还原测试、ete 页面测试、api 接口测试、压力测试的集成测试工具** -->
+# eTest<small>V1.0.0</small>
+
+> 一个简单易用的集成测试框架
+
 
 -   **0 代码，自动化测试**
 -   **完善的测试报告**
@@ -8,7 +11,21 @@
 -   **自动化运行定时任务以及测试结果推送机制**
 
 
-[立即体验](https://alltheblue.github.io/docs/)
+
+
+👉👉👉 [下载](https://github.com/alltheblue/docs/releases)
+👉👉👉 [Get Started](https://alltheblue.github.io/docs/#/application/example)
+
+
+
+<!-- **一个集成 ui 还原测试、ete 页面测试、api 接口测试、压力测试的集成测试工具** -->
+
+
+<!-- ![home](./img/home.jpeg '::etest-col-8')
+
+
+
+👉👉👉[立即体验🔗](https://alltheblue.github.io/docs/) -->
 
 
 <!-- ### 下载
