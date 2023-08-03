@@ -1,3 +1,4 @@
--   [eTest](/application/)
--   [version](/about/)
+-   [文档](/application/)
+-   [版本](/about/)
+-   [社区](/about/quesion.md)
 -   [GitHub](https://github.com/alltheblue/docs)
