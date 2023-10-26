@@ -14,4 +14,4 @@
 1. [下载链接 🔗](https://github.com/alltheblue/docs/releases)
 2. [官网链接 🔗](https://alltheblue.github.io/docs/#/application/example)
 3. [视频链接 🔗](https://www.bilibili.com/video/BV13P411f7pk/?vd_source=6b8d8a92f183f64ff070132f852c206f)
-
+4. [国内镜像开始访问 🔗 ](https://xflihaibo.gitee.io/e-test/#/)
