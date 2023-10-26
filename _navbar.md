@@ -1,4 +1,5 @@
 -   [文档](/application/)
 -   [版本](/about/)
 -   [社区](/about/quesion.md)
+-   [国内镜像](https://xflihaibo.gitee.io/e-test/#/) 
 -   [GitHub](https://github.com/alltheblue/docs)
