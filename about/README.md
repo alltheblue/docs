@@ -1,7 +1,13 @@
 # 系统更新信息
 
+### eTest自动化测试工具v1.1.27 &chrome-plugin(v1.3.6)  Latest
 
-### eTest自动化测试工具(v1.1.26) &chrome-plugin(v1.3.6) Latest
+1. 支持 Microsoft Edge 浏览器自动化测试
+2. 优化测试结果点击图片放大
+3. 优化eTest交互
+
+
+### eTest自动化测试工具(v1.1.26) &chrome-plugin(v1.3.6)
 
 1. windows 上传脚本优化显示名称
 2. 支持断言失败停止任务执行依旧生成测试报告
