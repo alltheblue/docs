@@ -18,4 +18,5 @@
 
 
 加开发者微信，进群和小伙伴一起探索eTest,学习不在孤单
+
  <img src="./img/wx.jpg" alt="联系我们" width="200"  style="margin:20px 0 40px"/>
