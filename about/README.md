@@ -1,6 +1,13 @@
 # 系统更新信息
 
-### eTest自动化测试工具v1.1.27 &chrome-plugin(v1.3.6)  Latest
+###  eTest自动化测试工具v1.1.28 &chrome-plugin(v1.3.6) 
+
+1. 修改windows 导入问题
+2. 部分图标不显示问题
+3.  环境变量不生效问题
+4. 暴露文件路径
+
+### eTest自动化测试工具v1.1.27 &chrome-plugin(v1.3.6)  
 
 1. 支持 Microsoft Edge 浏览器自动化测试
 2. 优化测试结果点击图片放大
