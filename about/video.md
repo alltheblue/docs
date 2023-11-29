@@ -21,7 +21,7 @@
     4. [08 eTest自动化测试 eTe查看行为设置缓存](https://www.bilibili.com/video/BV1c94y1L79N/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
     5. [eTest自动化测试 环境配置&变量配置](https://www.bilibili.com/video/BV1Ww411M7BM/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
 
- 4. eTe 结合 ant design pro实战
+4. eTe 结合 ant design pro实战
  
     1. [eTest自动化测试工具实战 Ant Design项目实战](https://www.bilibili.com/video/BV1KQ4y1n72B/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
     2. [eTest自动化测试 antd项目实战](https://www.bilibili.com/video/BV1Gz4y1P7bu/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
