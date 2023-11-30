@@ -55,10 +55,10 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 29. ete自动化测试报告，断言错误 支持视频回放查看结果 :heavy_check_mark:
 30. 支持鉴权、登录请求下收集网站性能信息 :heavy_check_mark:
 31. 支持拖拽功能 :heavy_check_mark:
-32. 支持自定义函数、自定义插件扩展:white_check_mark:
-33. 支持多浏览器切换运行自动化测试:white_check_mark:
-34. 支持测试报告图片放大预览:white_check_mark:
-35. 支持接口返回自定义请求值:white_check_mark:
+32. 支持自定义函数、自定义插件扩展:heavy_check_mark:
+33. 支持多浏览器切换运行自动化测试:heavy_check_mark:
+34. 支持测试报告图片放大预览:heavy_check_mark:
+35. 支持接口返回自定义请求值:heavy_check_mark:
 
 ## 快速开始
 
