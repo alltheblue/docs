@@ -27,3 +27,4 @@
     2. [11 eTest自动化测试 antd项目实战](https://www.bilibili.com/video/BV1Gz4y1P7bu/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
     3. [12 eTest自动化测试 antd 实战监控&工作台](https://www.bilibili.com/video/BV1LN4y1U79r/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
     4. [13 eTest自动化测试 实战antd 表单录入](https://www.bilibili.com/video/BV12M411o7Ly/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
+    5. [14 eTest自动化测试 antd实战详情页测试](https://www.bilibili.com/video/BV1Pj411L7Lp/?share_source=copy_web&vd_source=fad10b7f790d78a120e75cc03658f97b)
