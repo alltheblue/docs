@@ -1,7 +1,7 @@
 # 系统更新信息
 
 
-###  eTest自动化测试工具v1.1.28 &chrome-plugin(v1.3.6) 
+###  eTest自动化测试工具v1.1.29 &chrome-plugin(v1.3.6) 
 
 1. 支持文件上传功能
 2. 支持mock请求返回值
