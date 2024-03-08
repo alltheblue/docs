@@ -29,13 +29,13 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 3. 支持等待 dom 元素显示 :heavy_check_mark:
 4. 支持页面断言操作，数字类型的大于小于等于操作 :heavy_check_mark:
 5. 支持生成测试报告 :heavy_check_mark:
-6. 支持运行时页面错误收集 :heavy_check_mark:
+6. 支持运行时页面请求错误收集 :heavy_check_mark:
 7. 支持延时操作处理 :heavy_check_mark:
-8. 支持无头模式 :heavy_check_mark:
-9. 支持等待网络加载完成后操作 :heavy_check_mark:
+8. 支持运行自动化无头模式 :heavy_check_mark:
+9. 支持自动等待网络加载完成后操作 :heavy_check_mark:
 10. 支持阻止默认事件后，依然可以获取事件操作 :heavy_check_mark:
 11. 支持事件被阻止依旧可以收集 :heavy_check_mark:
-12. 支持错误截图 :heavy_check_mark:
+12. 支持断言错误自动截图 :heavy_check_mark:
 13. 支持在线修改 json 数据 :heavy_check_mark:
 14. 支持用例拖拽排序 :heavy_check_mark:
 15. 支持导出性能优化报告（lighthouse） :heavy_check_mark:
@@ -46,19 +46,21 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 20. 支持获取页面的文本设置当前执行的变量 :heavy_check_mark:
 21. 支持自动收集页面滚动数据 :heavy_check_mark:
 22. 支持页面快捷键操作 :heavy_check_mark:
-23. 支持分组维护 :heavy_check_mark:
-24. 支持文件重命名 :heavy_check_mark:
+23. 支持测试用例分组维护 :heavy_check_mark:
+24. 支持测试文件重命名修改 :heavy_check_mark:
 25. 支持导入导出文件信息 :heavy_check_mark:
 26. 支持设置缓存信息 :heavy_check_mark:
 27. 支持可视区域生成图片对比生成测试结果 :heavy_check_mark:
-28. 支持脚本回放调试 :heavy_check_mark:
+28. 支持测试脚本按步骤调试 :heavy_check_mark:
 29. ete自动化测试报告，断言错误 支持视频回放查看结果 :heavy_check_mark:
-30. 支持鉴权、登录请求下收集网站性能信息 :heavy_check_mark:
-31. 支持拖拽功能 :heavy_check_mark:
+30. 支持在鉴权、登录请求下收集网站性能信息 :heavy_check_mark:
+31. 支持测试用例拖拽功能 :heavy_check_mark:
 32. 支持自定义函数、自定义插件扩展:heavy_check_mark:
-33. 支持多浏览器切换运行自动化测试:heavy_check_mark:
+33. 支持多浏览器切换运行自动化测试 Chrome\Edge :heavy_check_mark:
 34. 支持测试报告图片放大预览:heavy_check_mark:
-35. 支持接口返回自定义请求值:heavy_check_mark:
+35. 支持接口返回自定义请求值校验:heavy_check_mark:
+35. 支持mock请求返回值:heavy_check_mark:
+36. 支持文件上传:heavy_check_mark:
 
 ## 快速开始
 
@@ -386,6 +388,34 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
   "indexNum": 12
 }
 ```
+
+### 录制文件上传
+
+测试用例中有些测试场景需要支持文件上传，针对这个测试用例，可能需要开发者code代码
+
+```javascript
+{
+	"xpath": "//*[@id="page-content"]/div/div/div[1]/div/div[1]/div[1]/div/div[1]/input",
+  "filePath": "/Users/xxx/Desktop/desktop/myproject/load.png",
+  "type": "upload",
+ 	"iframe": "",
+ 	"selector": "document",
+ 	"url": "https://www.xiaomiyoupin.com/",
+}
+```
+
+#### 关键 key
+
+| key        | 描述                                                                |是否必填|
+| ---------- | ------------------------------------------------------------------- |--------|
+| url        | 当前打开的 URL 地址信息                                             | Y   |
+| filePath   | 上传文件路径地址，支持绝对路径，或者默认桌面文件                      |Y   |
+| type       | 获取当前操作的 dom 操作类型 upload                                |Y   |
+| xpath      | 获取当前操作的 dom 的唯一地址                                       |Y    |
+| selector   | 获取当前操作的 dom 的路径信息                                       |N    |
+| iframe     | 当前网页是否嵌有 iframe 地址                                        |N  |
+
+
 
 !> 如果修改的测试用例信息过多，建议重新录制脚本信息，防止文件执行过程报错，影响测试结果。
 
