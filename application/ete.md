@@ -4,6 +4,12 @@
 
 <iframe src="//player.bilibili.com/player.html?aid=759967057&bvid=BV1764y1v7is&cid=392078147&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" framespacing="0"  height="600"  style=”width: 100%;height: 500px; max-width: 100%;align:center;padding:20px 0;” > </iframe>
 
+## 优势
+
+1. 测试脚本通过录制实现，上手简单，效率高
+2. 上手方便，不需要额外的编码能力，使用多种方式定位dom
+3. 测试文件管理复用方便，维护成本低
+
 ## 解决痛点
 
 市面上的 ete 测试框架很多，但对许多测试人员的编码能力有一定的要求，而且随着业务复杂度的提高，每一次迭代都可能导致重新编写测试脚本修改，可维护性很差，迁移能力较弱，测试成本高，结合以上问题，我们对 ete 测试框架做了二次封装，尽可能减少对测试人员编码的要求，满足日常多场景的测试，需要测试人员在 chrome 浏览器在开启 eTest 脚本录制工具，进行操作，便可生成测试人员想要的测试脚本，解放测试人员的臃肿烦躁的重复测试场景，让 ete 测试变的充满乐趣。使测试人员有更多的精力做更深层次的测试。
