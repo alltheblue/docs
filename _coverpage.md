@@ -1,6 +1,6 @@
 <img src="./img/home.jpeg" width="50%" style="box-shadow: 10px 10px 10px rgba(0,0,0,0.1)" />
 
-# eTest<small>V_1.2.28</small>
+# eTest<small>V_1.2.0</small>
 
 > 一个简单易用的集成测试框架
 
