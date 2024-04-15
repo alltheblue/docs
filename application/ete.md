@@ -22,7 +22,7 @@
 
 ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需要安装 chrome 插件，通过启用插件，收集用户操作信息，生成 ete 测试需要的脚本文件。
 
-!> Chrome 插件下载方式 [eTest 插件商店下载](https://chrome.google.com/webstore/detail/etest/nkjmdclbdiljcaeepkclamgboojhdnhi?hl=zh-CN) 或者 [eTest github 下载](https://github.com/alltheblue/docs/releases)
+!> Chrome 插件下载方式  [eTest github 下载](https://github.com/alltheblue/docs/releases)
 
 #### ETE 执行脚本流程图
 
