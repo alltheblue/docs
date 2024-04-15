@@ -72,7 +72,7 @@ ete 测试，需要依赖操作者操作，收集录制脚本信息，所以需�
 
 ### 下载 chrome 插件
 
-!> Chrome 插件下载方式 [eTestv1.3.5 github 下载](https://github.com/alltheblue/docs/releases/tag/untagged-f15d163a3542ae9bd384)
+!> Chrome 插件下载方式 [eTestv1.3.6 github 下载](https://github.com/alltheblue/docs/releases)
 
 ### 设置插件开启无痕模式
 
