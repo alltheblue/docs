@@ -2,5 +2,4 @@
 -   [版本](/about/)
 -   [视频教程](/about/video.md)
 -   [社区](/about/quesion.md)
--   [国内镜像](https://xflihaibo.gitee.io/e-test/#/) 
 -   [GitHub](https://github.com/alltheblue/docs)
