@@ -2,4 +2,5 @@
 -   [版本](/about/)
 -   [视频教程](/about/video.md)
 -   [社区](/about/quesion.md)
+-   [下载](https://github.com/alltheblue/docs/releases)
 -   [GitHub](https://github.com/alltheblue/docs)
